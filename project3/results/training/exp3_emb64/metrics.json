@@ -1,0 +1,29 @@
+{
+  "run_id": "exp3_emb64",
+  "config": {
+    "n_embd": 64,
+    "n_head": 2,
+    "n_layer": 2,
+    "block_size": 128,
+    "use_pos": true
+  },
+  "iters": 1000,
+  "lr": 0.001,
+  "seed": 42,
+  "batch_size": 32,
+  "threads": 8,
+  "corpus_chars": 2163,
+  "corpus_sha256": "61cefc11c7ab2d9f4c97b5e5cfc1cc46f283e02c97d7f9ec456919c3b895ffa4",
+  "vocab": 699,
+  "parameters": 153024,
+  "initial_loss": 6.560514450073242,
+  "final_loss": 0.05017784982919693,
+  "mean_last100": 0.053543958477675915,
+  "duration_seconds": 20.739345300011337,
+  "torch_version": "2.14.1+cpu",
+  "python_version": "3.12.12",
+  "os": "Windows-11-10.0.26300-SP0",
+  "loss_step1000": 0.05017784982919693,
+  "time_step1000": 20.739345300011337,
+  "mean_steps901_1000": 0.053543958477675915
+}

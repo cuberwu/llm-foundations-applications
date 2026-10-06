@@ -1,0 +1,136 @@
+Selected CPU threads: 8
+baseline: V=699, params=502,656, config={'n_embd': 128, 'n_head': 4, 'n_layer': 2, 'block_size': 128, 'use_pos': True}
+baseline step=1/2000 loss=6.5668 speed=17.85 it/s
+baseline step=100/2000 loss=1.4681 speed=19.03 it/s
+baseline step=200/2000 loss=0.1468 speed=20.17 it/s
+baseline step=300/2000 loss=0.0755 speed=20.41 it/s
+baseline step=400/2000 loss=0.0559 speed=20.07 it/s
+baseline step=500/2000 loss=0.0443 speed=19.84 it/s
+baseline step=600/2000 loss=0.0364 speed=19.76 it/s
+baseline step=700/2000 loss=0.0324 speed=19.59 it/s
+baseline step=800/2000 loss=0.0327 speed=19.34 it/s
+baseline step=900/2000 loss=0.0298 speed=19.33 it/s
+baseline step=1000/2000 loss=0.0291 speed=19.28 it/s
+baseline step=1100/2000 loss=0.0322 speed=19.26 it/s
+baseline step=1200/2000 loss=0.0370 speed=19.18 it/s
+baseline step=1300/2000 loss=0.0227 speed=19.12 it/s
+baseline step=1400/2000 loss=0.0305 speed=19.11 it/s
+baseline step=1500/2000 loss=0.0419 speed=19.10 it/s
+baseline step=1600/2000 loss=0.0239 speed=19.08 it/s
+baseline step=1700/2000 loss=0.0273 speed=19.10 it/s
+baseline step=1800/2000 loss=0.0236 speed=19.08 it/s
+baseline step=1900/2000 loss=0.0248 speed=19.15 it/s
+baseline step=2000/2000 loss=0.0277 speed=19.20 it/s
+DONE baseline seconds=104.2 final=0.0277
+exp1_lr_high: V=699, params=502,656, config={'n_embd': 128, 'n_head': 4, 'n_layer': 2, 'block_size': 128, 'use_pos': True}
+exp1_lr_high step=1/1000 loss=6.5668 speed=20.03 it/s
+exp1_lr_high step=100/1000 loss=4.3445 speed=17.91 it/s
+exp1_lr_high step=200/1000 loss=3.0535 speed=19.07 it/s
+exp1_lr_high step=300/1000 loss=1.9592 speed=19.39 it/s
+exp1_lr_high step=400/1000 loss=1.0679 speed=19.55 it/s
+exp1_lr_high step=500/1000 loss=0.7800 speed=19.69 it/s
+exp1_lr_high step=600/1000 loss=0.4321 speed=19.73 it/s
+exp1_lr_high step=700/1000 loss=0.2950 speed=19.82 it/s
+exp1_lr_high step=800/1000 loss=0.2672 speed=19.71 it/s
+exp1_lr_high step=900/1000 loss=0.1917 speed=19.73 it/s
+exp1_lr_high step=1000/1000 loss=0.1513 speed=19.66 it/s
+DONE exp1_lr_high seconds=50.9 final=0.1513
+exp1_lr_low: V=699, params=502,656, config={'n_embd': 128, 'n_head': 4, 'n_layer': 2, 'block_size': 128, 'use_pos': True}
+exp1_lr_low step=1/1000 loss=6.5668 speed=20.74 it/s
+exp1_lr_low step=100/1000 loss=5.3751 speed=20.69 it/s
+exp1_lr_low step=200/1000 loss=4.4755 speed=21.11 it/s
+exp1_lr_low step=300/1000 loss=3.7065 speed=21.23 it/s
+exp1_lr_low step=400/1000 loss=3.0283 speed=21.29 it/s
+exp1_lr_low step=500/1000 loss=2.4741 speed=21.21 it/s
+exp1_lr_low step=600/1000 loss=1.9411 speed=21.22 it/s
+exp1_lr_low step=700/1000 loss=1.4742 speed=21.21 it/s
+exp1_lr_low step=800/1000 loss=1.1139 speed=21.23 it/s
+exp1_lr_low step=900/1000 loss=0.9046 speed=21.23 it/s
+exp1_lr_low step=1000/1000 loss=0.6232 speed=21.25 it/s
+DONE exp1_lr_low seconds=47.1 final=0.6232
+exp2_layer1: V=699, params=304,384, config={'n_embd': 128, 'n_head': 4, 'n_layer': 1, 'block_size': 128, 'use_pos': True}
+exp2_layer1 step=1/1000 loss=6.5697 speed=35.07 it/s
+exp2_layer1 step=100/1000 loss=1.5622 speed=34.89 it/s
+exp2_layer1 step=200/1000 loss=0.1712 speed=36.27 it/s
+exp2_layer1 step=300/1000 loss=0.0883 speed=36.97 it/s
+exp2_layer1 step=400/1000 loss=0.0546 speed=37.23 it/s
+exp2_layer1 step=500/1000 loss=0.0559 speed=37.48 it/s
+exp2_layer1 step=600/1000 loss=0.0406 speed=37.66 it/s
+exp2_layer1 step=700/1000 loss=0.0365 speed=37.84 it/s
+exp2_layer1 step=800/1000 loss=0.0343 speed=37.96 it/s
+exp2_layer1 step=900/1000 loss=0.0337 speed=38.04 it/s
+exp2_layer1 step=1000/1000 loss=0.0296 speed=38.06 it/s
+DONE exp2_layer1 seconds=26.3 final=0.0296
+exp2_layer4: V=699, params=899,200, config={'n_embd': 128, 'n_head': 4, 'n_layer': 4, 'block_size': 128, 'use_pos': True}
+exp2_layer4 step=1/1000 loss=6.6060 speed=10.99 it/s
+exp2_layer4 step=100/1000 loss=1.9840 speed=10.21 it/s
+exp2_layer4 step=200/1000 loss=0.1949 speed=10.57 it/s
+exp2_layer4 step=300/1000 loss=0.0799 speed=10.67 it/s
+exp2_layer4 step=400/1000 loss=0.0473 speed=10.68 it/s
+exp2_layer4 step=500/1000 loss=0.0520 speed=10.81 it/s
+exp2_layer4 step=600/1000 loss=0.0344 speed=10.88 it/s
+exp2_layer4 step=700/1000 loss=0.0333 speed=10.91 it/s
+exp2_layer4 step=800/1000 loss=0.0282 speed=10.93 it/s
+exp2_layer4 step=900/1000 loss=0.0304 speed=10.96 it/s
+exp2_layer4 step=1000/1000 loss=0.0294 speed=11.00 it/s
+DONE exp2_layer4 seconds=90.9 final=0.0294
+exp3_emb64: V=699, params=153,024, config={'n_embd': 64, 'n_head': 2, 'n_layer': 2, 'block_size': 128, 'use_pos': True}
+exp3_emb64 step=1/1000 loss=6.5605 speed=40.88 it/s
+exp3_emb64 step=100/1000 loss=3.4145 speed=46.94 it/s
+exp3_emb64 step=200/1000 loss=1.4734 speed=46.64 it/s
+exp3_emb64 step=300/1000 loss=0.4864 speed=47.01 it/s
+exp3_emb64 step=400/1000 loss=0.2076 speed=47.51 it/s
+exp3_emb64 step=500/1000 loss=0.1461 speed=47.71 it/s
+exp3_emb64 step=600/1000 loss=0.0970 speed=47.90 it/s
+exp3_emb64 step=700/1000 loss=0.0694 speed=48.03 it/s
+exp3_emb64 step=800/1000 loss=0.0693 speed=48.12 it/s
+exp3_emb64 step=900/1000 loss=0.0597 speed=48.21 it/s
+exp3_emb64 step=1000/1000 loss=0.0502 speed=48.22 it/s
+DONE exp3_emb64 seconds=20.7 final=0.0502
+exp3_emb256: V=699, params=1,791,744, config={'n_embd': 256, 'n_head': 8, 'n_layer': 2, 'block_size': 128, 'use_pos': True}
+exp3_emb256 step=1/1000 loss=6.6235 speed=6.80 it/s
+exp3_emb256 step=100/1000 loss=0.1838 speed=7.37 it/s
+exp3_emb256 step=200/1000 loss=0.0527 speed=7.37 it/s
+exp3_emb256 step=300/1000 loss=0.0497 speed=7.44 it/s
+exp3_emb256 step=400/1000 loss=0.0265 speed=7.50 it/s
+exp3_emb256 step=500/1000 loss=0.0323 speed=7.51 it/s
+exp3_emb256 step=600/1000 loss=0.0233 speed=7.49 it/s
+exp3_emb256 step=700/1000 loss=0.0281 speed=7.37 it/s
+exp3_emb256 step=800/1000 loss=0.0213 speed=7.38 it/s
+exp3_emb256 step=900/1000 loss=0.0257 speed=7.39 it/s
+exp3_emb256 step=1000/1000 loss=0.0320 speed=7.39 it/s
+DONE exp3_emb256 seconds=135.3 final=0.0320
+exp4_context32: V=699, params=490,368, config={'n_embd': 128, 'n_head': 4, 'n_layer': 2, 'block_size': 32, 'use_pos': True}
+exp4_context32 step=1/1000 loss=6.5764 speed=40.26 it/s
+exp4_context32 step=100/1000 loss=2.5308 speed=71.09 it/s
+exp4_context32 step=200/1000 loss=0.4761 speed=65.08 it/s
+exp4_context32 step=300/1000 loss=0.1979 speed=60.56 it/s
+exp4_context32 step=400/1000 loss=0.1913 speed=60.02 it/s
+exp4_context32 step=500/1000 loss=0.1678 speed=58.77 it/s
+exp4_context32 step=600/1000 loss=0.1182 speed=57.87 it/s
+exp4_context32 step=700/1000 loss=0.1081 speed=57.26 it/s
+exp4_context32 step=800/1000 loss=0.1099 speed=58.80 it/s
+exp4_context32 step=900/1000 loss=0.1079 speed=59.26 it/s
+exp4_context32 step=1000/1000 loss=0.0968 speed=59.37 it/s
+DONE exp4_context32 seconds=16.8 final=0.0968
+exp5_no_pos: V=699, params=486,272, config={'n_embd': 128, 'n_head': 4, 'n_layer': 2, 'block_size': 128, 'use_pos': False}
+exp5_no_pos step=1/1000 loss=6.5950 speed=15.22 it/s
+exp5_no_pos step=100/1000 loss=1.3425 speed=17.25 it/s
+exp5_no_pos step=200/1000 loss=0.2308 speed=18.58 it/s
+exp5_no_pos step=300/1000 loss=0.0920 speed=19.04 it/s
+exp5_no_pos step=400/1000 loss=0.0559 speed=19.37 it/s
+exp5_no_pos step=500/1000 loss=0.0513 speed=19.69 it/s
+exp5_no_pos step=600/1000 loss=0.0387 speed=19.80 it/s
+exp5_no_pos step=700/1000 loss=0.0396 speed=19.81 it/s
+exp5_no_pos step=800/1000 loss=0.0318 speed=19.88 it/s
+exp5_no_pos step=900/1000 loss=0.0351 speed=19.92 it/s
+exp5_no_pos step=1000/1000 loss=0.0342 speed=19.93 it/s
+DONE exp5_no_pos seconds=50.2 final=0.0342
+SAMPLE s1_base repeat3=0.002 corpus_match10=1.000
+SAMPLE s2_cold repeat3=0.005 corpus_match10=1.000
+SAMPLE s3_hot repeat3=0.013 corpus_match10=0.646
+SAMPLE s4_top5 repeat3=0.002 corpus_match10=1.000
+SAMPLE s5_unlimited repeat3=0.002 corpus_match10=1.000
+SAMPLE advanced_before repeat3=0.002 corpus_match10=1.000
+SAMPLE advanced_after repeat3=0.002 corpus_match10=0.991
+ALL EXPERIMENTS COMPLETE

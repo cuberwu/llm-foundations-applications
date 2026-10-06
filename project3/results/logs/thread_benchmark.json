@@ -1,0 +1,18 @@
+[
+  {
+    "threads": 1,
+    "seconds_per_step": 0.19783689166555027
+  },
+  {
+    "threads": 2,
+    "seconds_per_step": 0.12911432499822695
+  },
+  {
+    "threads": 4,
+    "seconds_per_step": 0.10107988333523583
+  },
+  {
+    "threads": 8,
+    "seconds_per_step": 0.059712066664360464
+  }
+]

@@ -1,0 +1,29 @@
+{
+  "run_id": "exp4_context32",
+  "config": {
+    "n_embd": 128,
+    "n_head": 4,
+    "n_layer": 2,
+    "block_size": 32,
+    "use_pos": true
+  },
+  "iters": 1000,
+  "lr": 0.001,
+  "seed": 42,
+  "batch_size": 32,
+  "threads": 8,
+  "corpus_chars": 2163,
+  "corpus_sha256": "61cefc11c7ab2d9f4c97b5e5cfc1cc46f283e02c97d7f9ec456919c3b895ffa4",
+  "vocab": 699,
+  "parameters": 490368,
+  "initial_loss": 6.576354503631592,
+  "final_loss": 0.09684714674949646,
+  "mean_last100": 0.1024932760745287,
+  "duration_seconds": 16.843561800022144,
+  "torch_version": "2.14.1+cpu",
+  "python_version": "3.12.12",
+  "os": "Windows-11-10.0.26300-SP0",
+  "loss_step1000": 0.09684714674949646,
+  "time_step1000": 16.843561800022144,
+  "mean_steps901_1000": 0.1024932760745287
+}

@@ -1,0 +1,1 @@
+PASS: tokenizer, shifted labels, 502656 parameters, tied weights, causal mask, backward, sampling

@@ -1,0 +1,2 @@
+trainable params: 1,363,968 || all params: 257,848,896 || trainable%: 0.5290
+NF4 Linear4bit modules: 439

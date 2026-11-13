@@ -1,0 +1,140 @@
+{
+  "original": [
+    {
+      "id": "B01",
+      "img": "img01",
+      "prompt": "图中有几个红色圆形？",
+      "chosen": "2 个。",
+      "rejected": "3 个。图中有三个红色圆形整齐排列。"
+    },
+    {
+      "id": "B02",
+      "img": "img02",
+      "prompt": "图中有几个绿色圆形？",
+      "chosen": "3 个。",
+      "rejected": "2 个。"
+    },
+    {
+      "id": "B03",
+      "img": "img03",
+      "prompt": "图中有几个黄色方形？",
+      "chosen": "2 个。",
+      "rejected": "没有看到黄色图形。"
+    },
+    {
+      "id": "B04",
+      "img": "img06",
+      "prompt": "图中有几个黄色圆形？",
+      "chosen": "4 个。",
+      "rejected": "3 个。"
+    },
+    {
+      "id": "B05",
+      "img": "img10",
+      "prompt": "图中有几个蓝色圆形？",
+      "chosen": "3 个。",
+      "rejected": "图中有三个蓝色方形。"
+    },
+    {
+      "id": "B06",
+      "img": "img01",
+      "prompt": "图中蓝色的图形是什么形状？",
+      "chosen": "方形。",
+      "rejected": "圆形。"
+    },
+    {
+      "id": "B07",
+      "img": "img05",
+      "prompt": "图中红色的图形是什么形状？",
+      "chosen": "圆形。",
+      "rejected": "方形，而且有两个红色方形。"
+    },
+    {
+      "id": "B08",
+      "img": "img09",
+      "prompt": "图中绿色的图形是什么形状？",
+      "chosen": "方形。",
+      "rejected": "图中没有绿色图形。"
+    },
+    {
+      "id": "B09",
+      "img": "img11",
+      "prompt": "图里有没有黄色方形？",
+      "chosen": "有。",
+      "rejected": "没有。"
+    },
+    {
+      "id": "B10",
+      "img": "img12",
+      "prompt": "图里有没有红色圆形？",
+      "chosen": "没有。",
+      "rejected": "有，图左上角有一个红色圆形。"
+    },
+    {
+      "id": "B11",
+      "img": "img08",
+      "prompt": "图里有没有绿色方形？",
+      "chosen": "没有。",
+      "rejected": "有，一共两个绿色方形。"
+    },
+    {
+      "id": "B12",
+      "img": "img15",
+      "prompt": "图里有没有蓝色图形？",
+      "chosen": "没有。图中只有黄色和绿色的圆形。",
+      "rejected": "有，两个蓝色圆形。"
+    }
+  ],
+  "extra": [
+    {
+      "id": "N01",
+      "img": "img04",
+      "prompt": "图中有几个红色方形？",
+      "chosen": "3个。",
+      "rejected": "2个。",
+      "failure": "少数一个",
+      "type": "count",
+      "gold": "3"
+    },
+    {
+      "id": "N02",
+      "img": "img07",
+      "prompt": "图中蓝色的图形是什么形状？",
+      "chosen": "方形。",
+      "rejected": "圆形。",
+      "failure": "颜色与形状绑定错误",
+      "type": "attr",
+      "gold": "方形"
+    },
+    {
+      "id": "N03",
+      "img": "img13",
+      "prompt": "图中有几个绿色圆形？",
+      "chosen": "2个。",
+      "rejected": "3个，三个都是绿色圆形。",
+      "failure": "将黄色圆形也计入",
+      "type": "count",
+      "gold": "2"
+    },
+    {
+      "id": "N04",
+      "img": "img14",
+      "prompt": "图里有没有红色圆形？",
+      "chosen": "没有。",
+      "rejected": "有，右上角有一个红色圆形。",
+      "failure": "不存在的物体及位置幻觉",
+      "type": "exist",
+      "gold": "没有"
+    },
+    {
+      "id": "N05",
+      "img": "img15",
+      "prompt": "图中黄色的图形是什么形状？",
+      "chosen": "圆形。",
+      "rejected": "圆形。图中还有两只蓝色小鸟。",
+      "failure": "答案正确但附加虚构内容",
+      "type": "attr",
+      "gold": "圆形"
+    }
+  ]
+}

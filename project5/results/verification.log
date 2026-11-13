@@ -1,0 +1,39 @@
+{"inputs": "1.2,0.8,0.9,0.6,0.1", "margin": 0.009999999999999988, "loss": 0.6881596805078624}
+{"inputs": "-1,-2,-3,-2,0.1", "margin": 0.2, "loss": 0.5981388693815919}
+{"inputs": "-3,-2,-1,-2,0.1", "margin": -0.2, "loss": 0.7981388693815918}
+{"inputs": "1.5,1.0,0.2,0.6,0.1", "margin": 0.09, "loss": 0.6491593390256101}
+{"inputs": "-10000,0,10000,0,1", "margin": -20000.0, "loss": 20000.0}
+D:\project\llm-foundations-applications\project5\.venv\lib\site-packages\transformers\models\auto\modeling_auto.py:2284: FutureWarning: The class `AutoModelForVision2Seq` is deprecated and will be removed in v5.0. Please use `AutoModelForImageTextToText` instead.
+  warnings.warn(
+`torch_dtype` is deprecated! Use `dtype` instead!
+W1111 19:58:40.796000 54188 site-packages\torch\utils\flop_counter.py:29] triton not found; flop counting will not work for triton kernels
+{
+  "baseline": {
+    "count": 1,
+    "attr": 3,
+    "exist": 2,
+    "total": 6,
+    "accuracy": 0.4
+  },
+  "sft": {
+    "count": 4,
+    "attr": 4,
+    "exist": 3,
+    "total": 11,
+    "accuracy": 0.7333333333333333
+  },
+  "dpo": {
+    "count": 5,
+    "attr": 3,
+    "exist": 1,
+    "total": 9,
+    "accuracy": 0.6
+  },
+  "dpo17": {
+    "count": 5,
+    "attr": 3,
+    "exist": 1,
+    "total": 9,
+    "accuracy": 0.6
+  }
+}

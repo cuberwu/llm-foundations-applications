@@ -1,0 +1,9 @@
+{
+  "trainable": 1363968,
+  "total": 257848896,
+  "percent": 0.5289795772482191,
+  "quantized_modules": 439,
+  "r": 8,
+  "alpha": 16,
+  "dropout": 0.05
+}

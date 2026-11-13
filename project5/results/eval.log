@@ -1,0 +1,69 @@
+[data] 15 images, 15 questions, 12+5 preference pairs; seed=42
+D:\project\llm-foundations-applications\project5\.venv\lib\site-packages\transformers\models\auto\modeling_auto.py:2284: FutureWarning: The class `AutoModelForVision2Seq` is deprecated and will be removed in v5.0. Please use `AutoModelForImageTextToText` instead.
+  warnings.warn(
+`torch_dtype` is deprecated! Use `dtype` instead!
+W1111 19:56:34.198000 29720 site-packages\torch\utils\flop_counter.py:29] triton not found; flop counting will not work for triton kernels
+[baseline:P01] 'The image contains a square with a blue square in the top left corner.' gold=2 ok=False
+[baseline:P02] 'There are two colored circles in the image.' gold=3 ok=False
+[baseline:P03] 'The image contains a square with a blue circle inside it.' gold=2 ok=False
+[baseline:P04] 'There are two circles in the image.' gold=4 ok=False
+[baseline:P05] 'There are three circles in the image.' gold=3 ok=True
+[baseline:P06] 'The image contains a square with a blue square in the top left corner.' gold=方形 ok=True
+[baseline:P07] 'The image is a graphical representation of a graph. The graph is composed of two main components: the horizontal axis (x' gold=圆形 ok=False
+[baseline:P08] 'The image is a circular shape with a green square in the center.' gold=方形 ok=False
+[baseline:P09] 'The image contains a circle.' gold=圆形 ok=True
+[baseline:P10] 'The image is a square with three squares in it.' gold=方形 ok=True
+[baseline:P11] 'The image is a screenshot of a webpage.' gold=有 ok=False
+[baseline:P12] 'Yes, there are blue squares.' gold=没有 ok=False
+[baseline:P13] 'Yes.' gold=有 ok=True
+[baseline:P14] 'No.' gold=没有 ok=True
+[baseline:P15] 'The image does not contain any text.' gold=没有 ok=False
+[baseline] {'count': 1, 'attr': 3, 'exist': 2, 'total': 6, 'accuracy': 0.4}
+[sft:P01] '2个。' gold=2 ok=True
+[sft:P02] '3个。' gold=3 ok=True
+[sft:P03] '2个。' gold=2 ok=True
+[sft:P04] '2个。' gold=4 ok=False
+[sft:P05] '3个。' gold=3 ok=True
+[sft:P06] '图形。' gold=方形 ok=False
+[sft:P07] '圆形。' gold=圆形 ok=True
+[sft:P08] '方形。' gold=方形 ok=True
+[sft:P09] '圆形。' gold=圆形 ok=True
+[sft:P10] '方形。' gold=方形 ok=True
+[sft:P11] '有。' gold=有 ok=True
+[sft:P12] '没有。' gold=没有 ok=True
+[sft:P13] '有。' gold=有 ok=True
+[sft:P14] '有。' gold=没有 ok=False
+[sft:P15] '有。' gold=没有 ok=False
+[sft] {'count': 4, 'attr': 4, 'exist': 3, 'total': 11, 'accuracy': 0.7333333333333333}
+[dpo:P01] '2。' gold=2 ok=True
+[dpo:P02] '3个。' gold=3 ok=True
+[dpo:P03] '2.' gold=2 ok=True
+[dpo:P04] '4个。' gold=4 ok=True
+[dpo:P05] '3。' gold=3 ok=True
+[dpo:P06] '方形。' gold=方形 ok=True
+[dpo:P07] 'Square.' gold=圆形 ok=False
+[dpo:P08] '方形。' gold=方形 ok=True
+[dpo:P09] '中国。' gold=圆形 ok=False
+[dpo:P10] '方形。' gold=方形 ok=True
+[dpo:P11] '有。' gold=有 ok=True
+[dpo:P12] '号称。' gold=没有 ok=False
+[dpo:P13] '一。' gold=有 ok=False
+[dpo:P14] '有。' gold=没有 ok=False
+[dpo:P15] '几个图形。' gold=没有 ok=False
+[dpo] {'count': 5, 'attr': 3, 'exist': 1, 'total': 9, 'accuracy': 0.6}
+[dpo17:P01] '2。' gold=2 ok=True
+[dpo17:P02] '3个。' gold=3 ok=True
+[dpo17:P03] '2。' gold=2 ok=True
+[dpo17:P04] '4个。' gold=4 ok=True
+[dpo17:P05] '3个。' gold=3 ok=True
+[dpo17:P06] '方形。' gold=方形 ok=True
+[dpo17:P07] 'Square.' gold=圆形 ok=False
+[dpo17:P08] '方形。' gold=方形 ok=True
+[dpo17:P09] '方形。' gold=圆形 ok=False
+[dpo17:P10] '方形。' gold=方形 ok=True
+[dpo17:P11] '有。' gold=有 ok=True
+[dpo17:P12] '号称。' gold=没有 ok=False
+[dpo17:P13] '1.' gold=有 ok=False
+[dpo17:P14] '有。' gold=没有 ok=False
+[dpo17:P15] '几个图形。' gold=没有 ok=False
+[dpo17] {'count': 5, 'attr': 3, 'exist': 1, 'total': 9, 'accuracy': 0.6}

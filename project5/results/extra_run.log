@@ -1,0 +1,61 @@
+[data] 15 images, 15 questions, 12+5 preference pairs; seed=42
+D:\project\llm-foundations-applications\project5\.venv\lib\site-packages\transformers\models\auto\modeling_auto.py:2284: FutureWarning: The class `AutoModelForVision2Seq` is deprecated and will be removed in v5.0. Please use `AutoModelForImageTextToText` instead.
+  warnings.warn(
+`torch_dtype` is deprecated! Use `dtype` instead!
+W1111 19:50:11.588000 16016 site-packages\torch\utils\flop_counter.py:29] triton not found; flop counting will not work for triton kernels
+[dpo17] step=1/40 loss=0.17131 margin=1.67742
+[dpo17] step=2/40 loss=0.41254 margin=0.67206
+[dpo17] step=3/40 loss=0.78479 margin=-0.17558
+[dpo17] step=4/40 loss=0.37319 margin=0.79327
+[dpo17] step=5/40 loss=0.55860 margin=0.29006
+[dpo17] step=6/40 loss=0.35200 margin=0.86296
+[dpo17] step=7/40 loss=0.75503 margin=-0.12016
+[dpo17] step=8/40 loss=0.36102 margin=0.83290
+[dpo17] step=9/40 loss=0.43203 margin=0.61549
+[dpo17] step=10/40 loss=0.51799 margin=0.38765
+[dpo17] step=11/40 loss=0.14580 margin=1.85171
+[dpo17] step=12/40 loss=0.54595 margin=0.31986
+[dpo17] step=13/40 loss=0.35003 margin=0.86963
+[dpo17] step=14/40 loss=0.16101 margin=1.74473
+[dpo17] step=15/40 loss=0.87602 margin=-0.33741
+[dpo17] step=16/40 loss=0.48659 margin=0.46720
+[dpo17] step=17/40 loss=0.65652 margin=0.07464
+[dpo17] step=18/40 loss=0.16954 margin=1.68872
+[dpo17] step=19/40 loss=0.42260 margin=0.64260
+[dpo17] step=20/40 loss=0.63507 margin=0.11974
+[dpo17] step=21/40 loss=0.37427 margin=0.78981
+[dpo17] step=22/40 loss=0.21957 margin=1.40427
+[dpo17] step=23/40 loss=0.07939 margin=2.49338
+[dpo17] step=24/40 loss=0.09807 margin=2.27268
+[dpo17] step=25/40 loss=0.24440 margin=1.28426
+[dpo17] step=26/40 loss=0.55085 margin=0.30827
+[dpo17] step=27/40 loss=0.10934 margin=2.15808
+[dpo17] step=28/40 loss=0.17126 margin=1.67775
+[dpo17] step=29/40 loss=0.14722 margin=1.84132
+[dpo17] step=30/40 loss=0.65083 margin=0.08651
+[dpo17] step=31/40 loss=0.55585 margin=0.29650
+[dpo17] step=32/40 loss=0.35849 margin=0.84126
+[dpo17] step=33/40 loss=0.16777 margin=1.70010
+[dpo17] step=34/40 loss=0.04435 margin=3.09343
+[dpo17] step=35/40 loss=0.39982 margin=0.71017
+[dpo17] step=36/40 loss=0.04086 margin=3.17712
+[dpo17] step=37/40 loss=0.11516 margin=2.10332
+[dpo17] step=38/40 loss=0.47379 margin=0.50075
+[dpo17] step=39/40 loss=0.03813 margin=3.24770
+[dpo17] step=40/40 loss=0.04682 margin=3.03789
+[dpo17:P01] '2。' gold=2 ok=True
+[dpo17:P02] '3个。' gold=3 ok=True
+[dpo17:P03] '2。' gold=2 ok=True
+[dpo17:P04] '4个。' gold=4 ok=True
+[dpo17:P05] '3个。' gold=3 ok=True
+[dpo17:P06] '方形。' gold=方形 ok=True
+[dpo17:P07] 'Square.' gold=圆形 ok=False
+[dpo17:P08] '方形。' gold=方形 ok=True
+[dpo17:P09] '方形。' gold=圆形 ok=False
+[dpo17:P10] '方形。' gold=方形 ok=True
+[dpo17:P11] '有。' gold=有 ok=True
+[dpo17:P12] '号称。' gold=没有 ok=False
+[dpo17:P13] '1.' gold=有 ok=False
+[dpo17:P14] '有。' gold=没有 ok=False
+[dpo17:P15] '几个图形。' gold=没有 ok=False
+[dpo17] {'count': 5, 'attr': 3, 'exist': 1, 'total': 9, 'accuracy': 0.6}

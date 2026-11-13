@@ -1,0 +1,92 @@
+[
+  {
+    "id": "P01",
+    "prompt_tokens": 92,
+    "answer_tokens": 3,
+    "prompt_prefix_equal": true
+  },
+  {
+    "id": "P02",
+    "prompt_tokens": 92,
+    "answer_tokens": 3,
+    "prompt_prefix_equal": true
+  },
+  {
+    "id": "P03",
+    "prompt_tokens": 92,
+    "answer_tokens": 3,
+    "prompt_prefix_equal": true
+  },
+  {
+    "id": "P04",
+    "prompt_tokens": 93,
+    "answer_tokens": 3,
+    "prompt_prefix_equal": true
+  },
+  {
+    "id": "P05",
+    "prompt_tokens": 93,
+    "answer_tokens": 3,
+    "prompt_prefix_equal": true
+  },
+  {
+    "id": "P06",
+    "prompt_tokens": 99,
+    "answer_tokens": 4,
+    "prompt_prefix_equal": true
+  },
+  {
+    "id": "P07",
+    "prompt_tokens": 98,
+    "answer_tokens": 5,
+    "prompt_prefix_equal": true
+  },
+  {
+    "id": "P08",
+    "prompt_tokens": 98,
+    "answer_tokens": 4,
+    "prompt_prefix_equal": true
+  },
+  {
+    "id": "P09",
+    "prompt_tokens": 99,
+    "answer_tokens": 5,
+    "prompt_prefix_equal": true
+  },
+  {
+    "id": "P10",
+    "prompt_tokens": 99,
+    "answer_tokens": 4,
+    "prompt_prefix_equal": true
+  },
+  {
+    "id": "P11",
+    "prompt_tokens": 94,
+    "answer_tokens": 2,
+    "prompt_prefix_equal": true
+  },
+  {
+    "id": "P12",
+    "prompt_tokens": 94,
+    "answer_tokens": 5,
+    "prompt_prefix_equal": true
+  },
+  {
+    "id": "P13",
+    "prompt_tokens": 94,
+    "answer_tokens": 2,
+    "prompt_prefix_equal": true
+  },
+  {
+    "id": "P14",
+    "prompt_tokens": 93,
+    "answer_tokens": 5,
+    "prompt_prefix_equal": true
+  },
+  {
+    "id": "P15",
+    "prompt_tokens": 94,
+    "answer_tokens": 5,
+    "prompt_prefix_equal": true
+  }
+]

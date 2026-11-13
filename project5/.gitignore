@@ -1,0 +1,8 @@
+.cache/
+.venv/
+tmp/
+__pycache__/
+*.py[cod]
+results/memory_*.json
+results/*_reference.json
+results/*_adapter/README.md

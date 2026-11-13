@@ -1,0 +1,18 @@
+{
+  "status": "passed",
+  "steps": [
+    60,
+    40,
+    40
+  ],
+  "dpo_log_formula": true,
+  "margin_gradient_sign": true,
+  "judge_negative_and_english": true,
+  "reference_logps": [
+    -26.086069107055664,
+    -26.086069107055664,
+    -26.086069107055664
+  ],
+  "prompt_masks": 15,
+  "model_sha256": "74dea5904032e5ae99a2e0eef5179e6ac0f1dedc3ab0c7c2a5d4d387c843203e"
+}

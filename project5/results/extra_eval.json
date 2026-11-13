@@ -1,0 +1,83 @@
+{
+  "sft": [
+    {
+      "id": "N01",
+      "pred": "3个。",
+      "ok": true
+    },
+    {
+      "id": "N02",
+      "pred": "。。。。。。。。。。。。。。。。。。。。。。。。",
+      "ok": false
+    },
+    {
+      "id": "N03",
+      "pred": "2个。",
+      "ok": true
+    },
+    {
+      "id": "N04",
+      "pred": "有。",
+      "ok": false
+    },
+    {
+      "id": "N05",
+      "pred": "圆形。",
+      "ok": true
+    }
+  ],
+  "dpo": [
+    {
+      "id": "N01",
+      "pred": "3.",
+      "ok": true
+    },
+    {
+      "id": "N02",
+      "pred": "1.",
+      "ok": false
+    },
+    {
+      "id": "N03",
+      "pred": "2个。",
+      "ok": true
+    },
+    {
+      "id": "N04",
+      "pred": "一。",
+      "ok": false
+    },
+    {
+      "id": "N05",
+      "pred": "方向。",
+      "ok": false
+    }
+  ],
+  "dpo17": [
+    {
+      "id": "N01",
+      "pred": "3.",
+      "ok": true
+    },
+    {
+      "id": "N02",
+      "pred": "1.",
+      "ok": false
+    },
+    {
+      "id": "N03",
+      "pred": "2个。",
+      "ok": true
+    },
+    {
+      "id": "N04",
+      "pred": "一。",
+      "ok": false
+    },
+    {
+      "id": "N05",
+      "pred": "方形。",
+      "ok": false
+    }
+  ]
+}

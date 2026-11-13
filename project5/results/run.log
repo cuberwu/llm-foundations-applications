@@ -1,0 +1,154 @@
+[data] 15 images, 15 questions, 12+5 preference pairs; seed=42
+D:\project\llm-foundations-applications\project5\.venv\lib\site-packages\transformers\models\auto\modeling_auto.py:2284: FutureWarning: The class `AutoModelForVision2Seq` is deprecated and will be removed in v5.0. Please use `AutoModelForImageTextToText` instead.
+  warnings.warn(
+`torch_dtype` is deprecated! Use `dtype` instead!
+W1111 19:47:47.475000 50892 site-packages\torch\utils\flop_counter.py:29] triton not found; flop counting will not work for triton kernels
+[baseline:P01] 'The image contains a square with a blue square in the top left corner.' gold=2 ok=False
+[baseline:P02] 'There are two colored circles in the image.' gold=3 ok=False
+[baseline:P03] 'The image contains a square with a blue circle inside it.' gold=2 ok=False
+[baseline:P04] 'There are two circles in the image.' gold=4 ok=False
+[baseline:P05] 'There are three circles in the image.' gold=3 ok=False
+[baseline:P06] 'The image contains a square with a blue square in the top left corner.' gold=方形 ok=True
+[baseline:P07] 'The image is a graphical representation of a graph. The graph is composed of two main components: the horizontal axis (x' gold=圆形 ok=False
+[baseline:P08] 'The image is a circular shape with a green square in the center.' gold=方形 ok=False
+[baseline:P09] 'The image contains a circle.' gold=圆形 ok=True
+[baseline:P10] 'The image is a square with three squares in it.' gold=方形 ok=True
+[baseline:P11] 'The image is a screenshot of a webpage.' gold=有 ok=False
+[baseline:P12] 'Yes, there are blue squares.' gold=没有 ok=False
+[baseline:P13] 'Yes.' gold=有 ok=True
+[baseline:P14] 'No.' gold=没有 ok=True
+[baseline:P15] 'The image does not contain any text.' gold=没有 ok=True
+[baseline] {'count': 0, 'attr': 3, 'exist': 3, 'total': 6, 'accuracy': 0.4}
+trainable params: 1,363,968 || all params: 257,848,896 || trainable%: 0.5290
+[sft] step=1/60 loss=3.61080
+[sft] step=2/60 loss=2.56932
+[sft] step=3/60 loss=4.34684
+[sft] step=4/60 loss=3.48086
+[sft] step=5/60 loss=2.60039
+[sft] step=6/60 loss=8.13228
+[sft] step=7/60 loss=3.96700
+[sft] step=8/60 loss=6.90519
+[sft] step=9/60 loss=4.14404
+[sft] step=10/60 loss=7.75728
+[sft] step=11/60 loss=6.55882
+[sft] step=12/60 loss=2.33959
+[sft] step=13/60 loss=5.78619
+[sft] step=14/60 loss=6.52840
+[sft] step=15/60 loss=7.10038
+[sft] step=16/60 loss=5.04324
+[sft] step=17/60 loss=6.09258
+[sft] step=18/60 loss=3.18149
+[sft] step=19/60 loss=2.95477
+[sft] step=20/60 loss=4.54138
+[sft] step=21/60 loss=2.30856
+[sft] step=22/60 loss=2.63692
+[sft] step=23/60 loss=5.21546
+[sft] step=24/60 loss=1.45276
+[sft] step=25/60 loss=1.74362
+[sft] step=26/60 loss=1.55524
+[sft] step=27/60 loss=4.23087
+[sft] step=28/60 loss=3.34758
+[sft] step=29/60 loss=1.35070
+[sft] step=30/60 loss=2.56568
+[sft] step=31/60 loss=1.70659
+[sft] step=32/60 loss=1.15898
+[sft] step=33/60 loss=2.71426
+[sft] step=34/60 loss=0.88037
+[sft] step=35/60 loss=2.73267
+[sft] step=36/60 loss=0.88631
+[sft] step=37/60 loss=1.62794
+[sft] step=38/60 loss=0.61431
+[sft] step=39/60 loss=1.61390
+[sft] step=40/60 loss=0.82200
+[sft] step=41/60 loss=1.49891
+[sft] step=42/60 loss=0.96441
+[sft] step=43/60 loss=1.80316
+[sft] step=44/60 loss=0.70531
+[sft] step=45/60 loss=1.41032
+[sft] step=46/60 loss=1.03110
+[sft] step=47/60 loss=0.52889
+[sft] step=48/60 loss=0.51657
+[sft] step=49/60 loss=0.36224
+[sft] step=50/60 loss=0.53962
+[sft] step=51/60 loss=0.37716
+[sft] step=52/60 loss=1.31756
+[sft] step=53/60 loss=0.51281
+[sft] step=54/60 loss=0.82310
+[sft] step=55/60 loss=0.26792
+[sft] step=56/60 loss=0.15415
+[sft] step=57/60 loss=0.90551
+[sft] step=58/60 loss=0.34023
+[sft] step=59/60 loss=0.85193
+[sft] step=60/60 loss=0.39799
+[sft:P01] '2个。' gold=2 ok=True
+[sft:P02] '3个。' gold=3 ok=True
+[sft:P03] '2个。' gold=2 ok=True
+[sft:P04] '2个。' gold=4 ok=False
+[sft:P05] '3个。' gold=3 ok=True
+[sft:P06] '图形。' gold=方形 ok=False
+[sft:P07] '圆形。' gold=圆形 ok=True
+[sft:P08] '方形。' gold=方形 ok=True
+[sft:P09] '圆形。' gold=圆形 ok=True
+[sft:P10] '方形。' gold=方形 ok=True
+[sft:P11] '有。' gold=有 ok=True
+[sft:P12] '没有。' gold=没有 ok=True
+[sft:P13] '有。' gold=有 ok=True
+[sft:P14] '有。' gold=没有 ok=False
+[sft:P15] '有。' gold=没有 ok=False
+[sft] {'count': 4, 'attr': 4, 'exist': 3, 'total': 11, 'accuracy': 0.7333333333333333}
+[dpo] step=1/40 loss=0.17131 margin=1.67742
+[dpo] step=2/40 loss=0.79059 margin=-0.18623
+[dpo] step=3/40 loss=0.16687 margin=1.70597
+[dpo] step=4/40 loss=0.41924 margin=0.65238
+[dpo] step=5/40 loss=0.47168 margin=0.50635
+[dpo] step=6/40 loss=0.38466 margin=0.75691
+[dpo] step=7/40 loss=0.96362 margin=-0.48314
+[dpo] step=8/40 loss=0.69466 margin=-0.00302
+[dpo] step=9/40 loss=0.16600 margin=1.71159
+[dpo] step=10/40 loss=0.58676 margin=0.22546
+[dpo] step=11/40 loss=0.48598 margin=0.46877
+[dpo] step=12/40 loss=0.34963 margin=0.87098
+[dpo] step=13/40 loss=0.64267 margin=0.10363
+[dpo] step=14/40 loss=0.07985 margin=2.48741
+[dpo] step=15/40 loss=0.07424 margin=2.56306
+[dpo] step=16/40 loss=0.21071 margin=1.45005
+[dpo] step=17/40 loss=0.29374 margin=1.07461
+[dpo] step=18/40 loss=0.18454 margin=1.59622
+[dpo] step=19/40 loss=0.10642 margin=2.18673
+[dpo] step=20/40 loss=0.36267 margin=0.82745
+[dpo] step=21/40 loss=0.59039 margin=0.21730
+[dpo] step=22/40 loss=0.38231 margin=0.76429
+[dpo] step=23/40 loss=0.66122 margin=0.06491
+[dpo] step=24/40 loss=0.25322 margin=1.24421
+[dpo] step=25/40 loss=0.33121 margin=0.93482
+[dpo] step=26/40 loss=0.18794 margin=1.57617
+[dpo] step=27/40 loss=0.56526 margin=0.27456
+[dpo] step=28/40 loss=0.03821 margin=3.24541
+[dpo] step=29/40 loss=0.52575 margin=0.36856
+[dpo] step=30/40 loss=0.30054 margin=1.04812
+[dpo] step=31/40 loss=0.08247 margin=2.45382
+[dpo] step=32/40 loss=0.13646 margin=1.92269
+[dpo] step=33/40 loss=0.04340 margin=3.11553
+[dpo] step=34/40 loss=0.05346 margin=2.90206
+[dpo] step=35/40 loss=0.04407 margin=3.09990
+[dpo] step=36/40 loss=0.48709 margin=0.46589
+[dpo] step=37/40 loss=0.34178 margin=0.89782
+[dpo] step=38/40 loss=0.25333 margin=1.24372
+[dpo] step=39/40 loss=0.03761 margin=3.26160
+[dpo] step=40/40 loss=0.02541 margin=3.65989
+[dpo:P01] '2。' gold=2 ok=True
+[dpo:P02] '3个。' gold=3 ok=True
+[dpo:P03] '2.' gold=2 ok=True
+[dpo:P04] '4个。' gold=4 ok=True
+[dpo:P05] '3。' gold=3 ok=True
+[dpo:P06] '方形。' gold=方形 ok=True
+[dpo:P07] 'Square.' gold=圆形 ok=False
+[dpo:P08] '方形。' gold=方形 ok=True
+[dpo:P09] '中国。' gold=圆形 ok=False
+[dpo:P10] '方形。' gold=方形 ok=True
+[dpo:P11] '有。' gold=有 ok=True
+[dpo:P12] '号称。' gold=没有 ok=False
+[dpo:P13] '一。' gold=有 ok=False
+[dpo:P14] '有。' gold=没有 ok=False
+[dpo:P15] '几个图形。' gold=没有 ok=False
+[dpo] {'count': 5, 'attr': 3, 'exist': 1, 'total': 9, 'accuracy': 0.6}

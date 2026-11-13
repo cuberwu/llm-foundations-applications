@@ -1,0 +1,61 @@
+﻿stage,id,type,img,q,gold,pred,ok,guide_ok
+baseline,P01,count,img01,图中有几个红色圆形？,2,The image contains a square with a blue square in the top left corner.,False,False
+baseline,P02,count,img02,图中有几个绿色圆形？,3,There are two colored circles in the image.,False,False
+baseline,P03,count,img03,图中有几个黄色方形？,2,The image contains a square with a blue circle inside it.,False,False
+baseline,P04,count,img06,图中有几个黄色圆形？,4,There are two circles in the image.,False,False
+baseline,P05,count,img10,图中有几个蓝色圆形？,3,There are three circles in the image.,True,False
+baseline,P06,attr,img01,图中蓝色的图形是什么形状？,方形,The image contains a square with a blue square in the top left corner.,True,False
+baseline,P07,attr,img05,图中红色的图形是什么形状？,圆形,The image is a graphical representation of a graph. The graph is composed of two main components: the horizontal axis (x,False,False
+baseline,P08,attr,img09,图中绿色的图形是什么形状？,方形,The image is a circular shape with a green square in the center.,False,False
+baseline,P09,attr,img13,图中黄色的图形是什么形状？,圆形,The image contains a circle.,True,False
+baseline,P10,attr,img14,图中蓝色的图形是什么形状？,方形,The image is a square with three squares in it.,True,False
+baseline,P11,exist,img11,图里有没有黄色方形？,有,The image is a screenshot of a webpage.,False,False
+baseline,P12,exist,img12,图里有没有红色圆形？,没有,"Yes, there are blue squares.",False,False
+baseline,P13,exist,img07,图里有没有绿色圆形？,有,Yes.,True,False
+baseline,P14,exist,img08,图里有没有绿色方形？,没有,No.,True,False
+baseline,P15,exist,img15,图里有没有蓝色图形？,没有,The image does not contain any text.,False,False
+sft,P01,count,img01,图中有几个红色圆形？,2,2个。,True,True
+sft,P02,count,img02,图中有几个绿色圆形？,3,3个。,True,True
+sft,P03,count,img03,图中有几个黄色方形？,2,2个。,True,True
+sft,P04,count,img06,图中有几个黄色圆形？,4,2个。,False,False
+sft,P05,count,img10,图中有几个蓝色圆形？,3,3个。,True,True
+sft,P06,attr,img01,图中蓝色的图形是什么形状？,方形,图形。,False,False
+sft,P07,attr,img05,图中红色的图形是什么形状？,圆形,圆形。,True,True
+sft,P08,attr,img09,图中绿色的图形是什么形状？,方形,方形。,True,True
+sft,P09,attr,img13,图中黄色的图形是什么形状？,圆形,圆形。,True,True
+sft,P10,attr,img14,图中蓝色的图形是什么形状？,方形,方形。,True,True
+sft,P11,exist,img11,图里有没有黄色方形？,有,有。,True,True
+sft,P12,exist,img12,图里有没有红色圆形？,没有,没有。,True,True
+sft,P13,exist,img07,图里有没有绿色圆形？,有,有。,True,True
+sft,P14,exist,img08,图里有没有绿色方形？,没有,有。,False,False
+sft,P15,exist,img15,图里有没有蓝色图形？,没有,有。,False,False
+dpo,P01,count,img01,图中有几个红色圆形？,2,2。,True,True
+dpo,P02,count,img02,图中有几个绿色圆形？,3,3个。,True,True
+dpo,P03,count,img03,图中有几个黄色方形？,2,2.,True,True
+dpo,P04,count,img06,图中有几个黄色圆形？,4,4个。,True,True
+dpo,P05,count,img10,图中有几个蓝色圆形？,3,3。,True,True
+dpo,P06,attr,img01,图中蓝色的图形是什么形状？,方形,方形。,True,True
+dpo,P07,attr,img05,图中红色的图形是什么形状？,圆形,Square.,False,False
+dpo,P08,attr,img09,图中绿色的图形是什么形状？,方形,方形。,True,True
+dpo,P09,attr,img13,图中黄色的图形是什么形状？,圆形,中国。,False,False
+dpo,P10,attr,img14,图中蓝色的图形是什么形状？,方形,方形。,True,True
+dpo,P11,exist,img11,图里有没有黄色方形？,有,有。,True,True
+dpo,P12,exist,img12,图里有没有红色圆形？,没有,号称。,False,False
+dpo,P13,exist,img07,图里有没有绿色圆形？,有,一。,False,False
+dpo,P14,exist,img08,图里有没有绿色方形？,没有,有。,False,False
+dpo,P15,exist,img15,图里有没有蓝色图形？,没有,几个图形。,False,False
+dpo17,P01,count,img01,图中有几个红色圆形？,2,2。,True,True
+dpo17,P02,count,img02,图中有几个绿色圆形？,3,3个。,True,True
+dpo17,P03,count,img03,图中有几个黄色方形？,2,2。,True,True
+dpo17,P04,count,img06,图中有几个黄色圆形？,4,4个。,True,True
+dpo17,P05,count,img10,图中有几个蓝色圆形？,3,3个。,True,True
+dpo17,P06,attr,img01,图中蓝色的图形是什么形状？,方形,方形。,True,True
+dpo17,P07,attr,img05,图中红色的图形是什么形状？,圆形,Square.,False,False
+dpo17,P08,attr,img09,图中绿色的图形是什么形状？,方形,方形。,True,True
+dpo17,P09,attr,img13,图中黄色的图形是什么形状？,圆形,方形。,False,False
+dpo17,P10,attr,img14,图中蓝色的图形是什么形状？,方形,方形。,True,True
+dpo17,P11,exist,img11,图里有没有黄色方形？,有,有。,True,True
+dpo17,P12,exist,img12,图里有没有红色圆形？,没有,号称。,False,False
+dpo17,P13,exist,img07,图里有没有绿色圆形？,有,1.,False,False
+dpo17,P14,exist,img08,图里有没有绿色方形？,没有,有。,False,False
+dpo17,P15,exist,img15,图里有没有蓝色图形？,没有,几个图形。,False,False

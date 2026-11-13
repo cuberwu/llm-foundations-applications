@@ -1,0 +1,30 @@
+{
+  "baseline": {
+    "count": 1,
+    "attr": 3,
+    "exist": 2,
+    "total": 6,
+    "accuracy": 0.4
+  },
+  "sft": {
+    "count": 4,
+    "attr": 4,
+    "exist": 3,
+    "total": 11,
+    "accuracy": 0.7333333333333333
+  },
+  "dpo": {
+    "count": 5,
+    "attr": 3,
+    "exist": 1,
+    "total": 9,
+    "accuracy": 0.6
+  },
+  "dpo17": {
+    "count": 5,
+    "attr": 3,
+    "exist": 1,
+    "total": 9,
+    "accuracy": 0.6
+  }
+}

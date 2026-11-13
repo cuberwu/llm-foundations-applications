@@ -1,0 +1,11 @@
+{
+  "render_seconds": 3.0532937999996648,
+  "near": 7.391571069534291,
+  "far": 9.881618514846192,
+  "resolution": 512,
+  "samples": 64,
+  "device": "CPU",
+  "threads": 16,
+  "blender": "4.5.13 LTS",
+  "note": "clay/depth/normal exported together; shared render time"
+}

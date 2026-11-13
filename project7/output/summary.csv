@@ -1,0 +1,4 @@
+﻿run,resolution,steps,cfg,control_strength,sampling_seconds,vae_seconds,control_maps_shared_seconds,total_seconds
+A,512,4,1.2,0.9,39.89,16.05,3.0533,65.7236
+B,512,8,1.2,0.9,79.21,13.87,6.0145,109.1435
+C,512,4,1.2,0.5,40.92,14.91,5.466,70.4777

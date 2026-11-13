@@ -1,0 +1,11 @@
+{'args': {'mode': 'quick', 'teacher_iters': 30, 'student_iters': 20, 'abl_iters': 80, 'batch_size': 8, 'lr': 0.003, 'T': 4, 'alpha': 0.5, 'seed': 0, 'threads': 4, 'retrain': True}, 'device': 'cpu', 'python': '3.10.19', 'torch': '2.11.0.dev20260127+cu128', 'platform': 'Windows-10-10.0.26200-SP0', 'threads': 4, 'vocab': 322, 'train_chars': 49457, 'val_chars': 5357, 'train_sha256': '8c359531b90f07e9628dee7e3eeb2a1dd945e429972db427690a17464bedec75', 'val_sha256': 'b6447e6980a0b1c62a00dbbe86d4757b5f4f9be3bf47b65b498f5d162c213202'}
+[teacher160] 1/30 loss=5.8282 ce=5.8282
+[teacher160] 30/30 loss=1.3759 ce=1.3759
+[teacher160] val=1.7593 ppl=5.8084
+[scratch] 1/20 loss=5.7963 ce=5.7963
+[scratch] 20/20 loss=3.8253 ce=3.8253
+[scratch] val=3.8874 ppl=48.7857 agree=0.3602
+[kd] 1/20 loss=3.9764 ce=5.7963
+[kd] 20/20 loss=2.5743 ce=4.0268
+[kd] val=4.1040 ppl=60.5800 agree=0.2579
+[done] quick: 2.32s

@@ -1,0 +1,27 @@
+{'args': {'mode': 'scan', 'teacher_iters': 200, 'student_iters': 120, 'abl_iters': 80, 'batch_size': 24, 'lr': 0.003, 'T': 4, 'alpha': 0.5, 'seed': 0, 'threads': 4, 'retrain': False}, 'device': 'cpu', 'python': '3.10.19', 'torch': '2.11.0.dev20260127+cu128', 'platform': 'Windows-10-10.0.26200-SP0', 'threads': 4, 'vocab': 322, 'train_chars': 49457, 'val_chars': 5357, 'train_sha256': '8c359531b90f07e9628dee7e3eeb2a1dd945e429972db427690a17464bedec75', 'val_sha256': 'b6447e6980a0b1c62a00dbbe86d4757b5f4f9be3bf47b65b498f5d162c213202'}
+[teacher160] val=0.9986 ppl=2.7144
+[teacher96] 1/200 loss=5.7921 ce=5.7921
+[teacher96] 50/200 loss=1.2481 ce=1.2481
+[teacher96] 100/200 loss=0.9825 ce=0.9825
+[teacher96] 150/200 loss=1.0723 ce=1.0723
+[teacher96] 200/200 loss=0.7827 ce=0.7827
+[teacher96] val=1.1263 ppl=3.0843
+[kd_c96] 1/120 loss=5.1510 ce=5.7933
+[kd_c96] 50/120 loss=1.7440 ce=1.6808
+[kd_c96] 100/120 loss=1.0057 ce=1.1248
+[kd_c96] 120/120 loss=0.8456 ce=1.0033
+[kd_c160] 1/120 loss=5.4255 ce=5.7933
+[kd_c160] 50/120 loss=1.8413 ce=1.6171
+[kd_c160] 100/120 loss=1.0337 ce=1.0799
+[kd_c160] 120/120 loss=0.9146 ce=0.9922
+[teacher256] 1/200 loss=5.8387 ce=5.8387
+[teacher256] 50/200 loss=0.9635 ce=0.9635
+[teacher256] 100/200 loss=0.7850 ce=0.7850
+[teacher256] 150/200 loss=0.9653 ce=0.9653
+[teacher256] 200/200 loss=0.7726 ce=0.7726
+[teacher256] val=0.9353 ppl=2.5479
+[kd_c256] 1/120 loss=5.6860 ce=5.7933
+[kd_c256] 50/120 loss=2.0322 ce=1.6278
+[kd_c256] 100/120 loss=1.1682 ce=1.1064
+[kd_c256] 120/120 loss=0.9911 ce=0.9927
+[done] scan: 70.12s

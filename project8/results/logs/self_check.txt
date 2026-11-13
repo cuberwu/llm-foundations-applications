@@ -1,0 +1,3 @@
+PASS: KL direction, token normalization, T^2 gradient scaling
+PASS: corpus counts, causal mask, CPU device, exact parameter formula
+PASS: main comparison, 16-cell ablation fairness, teacher scan fairness and deterministic rerun
